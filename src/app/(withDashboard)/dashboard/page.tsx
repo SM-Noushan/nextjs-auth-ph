@@ -3,7 +3,7 @@ import { authOptions } from "@/app/utils/authOptions";
 
 const DashboardPage = async () => {
   const session = await getServerSession(authOptions);
-  console.log(session);
+  // console.log(session);
   return (
     <div>
       <h1 className="text-4xl text-center mt-10">
